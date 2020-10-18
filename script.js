@@ -1,8 +1,6 @@
-console.log("Dela")
 
 let answerText = document.getElementById("answer");
 let secret = Math.floor((Math.random() * 100) + 1);
-console.log(secret)
 
 function checkAnswer() {
  let answer = parseInt(document.getElementById("userInput").value);
@@ -18,5 +16,5 @@ function checkAnswer() {
 
 
 
-let answerButton = document.getElementById("guess")
-answerButton.addEventListener("click", checkAnswer)
+let answerButton = document.getElementById("guess");
+answerButton.addEventListener("click", checkAnswer);
